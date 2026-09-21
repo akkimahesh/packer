@@ -1,11 +1,21 @@
-#install dependencies
+## Common Packer Commands
+
+**Install dependencies:**
+```bash
 packer init .
+```
 
-#check syntax
+**Check syntax:**
+```bash
 packer validate .
+```
 
-#check format
+**Check format:**
+```bash
 packer fmt .
+```
 
-#build ami 
+**Build AMI:**
+```bash
 packer build .
+```
